@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AutoPlay>true</AutoPlay>
+            <DescSliding>true</DescSliding>
+            <GalleryMultipleSuffix>1</GalleryMultipleSuffix>
+            <GalleryName>Splinterworks</GalleryName>
+            <GalleryOptionID>1</GalleryOptionID>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEngine>jquery</ImageEngine>
+            <ImageHeight>480</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink>true</ImageShrink>
+            <ImageStretch>false</ImageStretch>
+            <ImageTemplate>1. Standard</ImageTemplate>
+            <ImageTemplateName>Standard</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <PageBgColor>#221100</PageBgColor>
+            <PublishFileName>C:/Users/EddyJones/Desktop/VisualLightBox/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/EddyJones/Desktop/VisualLightBox</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelPaths>false</RelPaths>
+            <ResizeSpeed>7</ResizeSpeed>
+            <RightClick>false</RightClick>
+            <SlideShow>true</SlideShow>
+            <SlideShowDelay>4</SlideShowDelay>
+            <ThumbColumns>0</ThumbColumns>
+            <ThumbFitImage>false</ThumbFitImage>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>120</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbTemplate>Round Frame</ThumbTemplate>
+            <ThumbTemplateName>Round Frame</ThumbTemplateName>
+            <ThumbWidth>160</ThumbWidth>
+            <WatermarkAlign>66</WatermarkAlign>
+            <WatermarkColor>#acacac</WatermarkColor>
+            <WatermarkFont>Raavi,10,-1,5,75,0,0,0,0,0</WatermarkFont>
+            <WatermarkImage>C:/Users/EddyJones/Desktop/Sync Folder/splinterworks/images/full_size/Splinterworks_Logo_small (41x50).jpg</WatermarkImage>
+            <WatermarkOpacity>80</WatermarkOpacity>
+            <WatermarkText>© Splinterworks</WatermarkText>
+            <WatermarkType>1</WatermarkType>
+            <WatermarkX>10</WatermarkX>
+            <WatermarkY>10</WatermarkY>
+            <ZoomEffect>true</ZoomEffect>
+        </Settings>
+        <Images>
+            <Image>
+                <url>C:\Users\EddyJones\Desktop\Sync Folder\splinterworks\images\full_size\bottoms_up1.jpg</url>
+                <title>bottoms_up1</title>
+            </Image>
+            <Image>
+                <url>C:\Users\EddyJones\Desktop\Sync Folder\splinterworks\images\full_size\dan's guitar shop 11.jpg</url>
+                <title>dan's guitar shop 11</title>
+            </Image>
+            <Image>
+                <url>C:\Users\EddyJones\Desktop\Sync Folder\splinterworks\images\full_size\dan's guitar shop 22.jpg</url>
+                <title>dan's guitar shop 22</title>
+            </Image>
+            <Image>
+                <url>C:\Users\EddyJones\Desktop\Sync Folder\splinterworks\images\full_size\dan's guitar shop 24.jpg</url>
+                <title>dan's guitar shop 24</title>
+            </Image>
+            <Image>
+                <url>C:\Users\EddyJones\Desktop\Sync Folder\splinterworks\images\full_size\full_composite_gtr.jpg</url>
+                <title>full_composite_gtr</title>
+            </Image>
+            <Image>
+                <url>C:\Users\EddyJones\Desktop\Sync Folder\splinterworks\images\full_size\head_on.jpg</url>
+                <title>head_on</title>
+            </Image>
+            <Image>
+                <url>C:\Users\EddyJones\Desktop\Sync Folder\splinterworks\images\full_size\head_on_2.jpg</url>
+                <title>head_on_2</title>
+            </Image>
+            <Image>
+                <url>C:\Users\EddyJones\Desktop\Sync Folder\splinterworks\images\full_size\to_the_left.jpg</url>
+                <title>to_the_left</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

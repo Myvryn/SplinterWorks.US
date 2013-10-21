@@ -1,0 +1,61 @@
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+    <script>
+        function changeSourceOnLoad(){
+            if( document.referrer.search('splinterworks_blog') >= 0 ){
+                document.all.blog.src = document.referrer;
+            }
+        }
+    </script>
+    <title>Splinterworks Blog</title>
+    <!-- The Columnal Grid (base, load first) -->
+	<link rel="stylesheet" href="css/columnal.css" type="text/css" media="screen" />
+    <!-- Fixes for IE -->
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+        <![endif]-->
+
+        <!-- use "fixed-984px-ie.css" or "fixed-960px-ie.css for a 984px or 960px fixed width for IE6 and 7 -->
+        <!--[if lte IE 7]>
+            <link rel="stylesheet" href="css/fixed-984px-ie.css" type="text/css" media="screen" />
+        <![endif]-->
+        
+    <!-- Fixes for IE6, only needed if IE 6 will be supported - width must match 984px or 960px of css file used above -->
+    <!-- Use .imagescale to fix IE6 issues with full-column width images (class must be added to any image wider than the column it is placed into) -->
+        <!--[if lte IE 6]>
+            <link rel="stylesheet" href="css/ie6-984px.css" type="text/css" media="screen" />
+        <![endif]-->
+      <!-- End fixes for IE -->
+
+    <!-- Page building tools - Gray box colors and page debugging tools -->
+    <link rel="stylesheet" href="css/build.css" type="text/css" media="screen" />
+    <link rel="StyleSheet" href="splinterworks.css" type="text/css"/>
+    </head>
+
+    <body onload="changeSourceOnLoad()">
+        <!-- Logo -->
+        <div id="image" class="LogoBlock">
+            <img alt="logoSplinterWorks" src="images/logo.png">
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <span class="MenuBlock SubPage col_11 bordered">
+                <a href="/" class="MenuItem"> HOME&nbsp;</a>|&nbsp;
+                <a href="/contact_me.html" class="MenuItem">&nbsp;CONTACT&nbsp;</a>|&nbsp;
+                <a href="/about_me.html" class="MenuItem">&nbsp;ABOUT ME&nbsp;</a>|&nbsp;
+                <a href="/blog.html" class="MenuItem">&nbsp;BLOG&nbsp;</a>|&nbsp;
+                <a href="/gallery.html" class="MenuItem">&nbsp;GALLERY&nbsp;</a>
+                <span class="TitleBlock">
+                    <h1>Splinterworks</h1>
+                    <span class="subtitle">&nbsp;Guitars&nbsp;for&nbsp;the&nbsp;Senses</span>
+                </span>
+            </span>
+            </div>
+        </div>
+        <div class="row">
+            <iframe id="blog" class="col_8 pre_1 embedded" src="http://www.estevenjones.com/splinterworks_blog/contact-me/"/>
+        </div>
+    </body>
+</html>

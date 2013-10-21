@@ -1,0 +1,57 @@
+BODY{
+    background-color:   #112233;
+    background-repeat:  no-repeat;
+    background-position:    top center;
+	font-family: 'Trebuchet MS', Arial, Tahoma, sans-serif;
+	color: silver;
+    margin: 10px;
+}
+
+.TitleBlock{
+	color: silver;
+	font-family: 'Trebuchet MS', Arial, Tahoma, sans-serif;	
+}
+.MenuBlock{
+    text-decoration: none;
+}
+.MenuItem{
+    width:  50px;
+    color:  silver;
+}
+.MenuItem:Hover{
+    color:  SlateBlue;
+	text-decoration: none;
+}
+A{
+	text-decoration: none;
+}
+h1{
+	font-weight: bolder;
+	
+}
+.bordered{
+	border: solid 2px silver;
+	padding: 0px 25px 0px 25px;
+	-webkit-border-radius: 15px 0px 15px 0px;
+	-moz-border-radius: 15px 0px 15px 0px;
+	border-radius: 15px 0px 15px 0px;	
+}
+.subtitle{
+	float: left;
+	position: relative;
+	top: -20px;
+	left: 30px;
+	border-top: solid thin;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: right;
+}
+.footer{
+	text-align:  center;
+	font-size: smaller;
+	position: absolute;
+	bottom:  15px;
+	width: 95%;
+	color: darkslategray;	
+}
+#content {width:620px; margin:0px auto; float: right; top: 500px;}

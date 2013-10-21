@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<script src="vanilla-masonry.js"></script>
+<link href="splinterworks2.css" rel="StyleSheet" type="text/css" />
+<title>Splinterworks Guitars - USA</title>
+<style>
+body {
+	margin-left: 35px;
+	margin-right: 5px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+body-div {
+	border-left: 3px orange solid;
+	border-right: 3px orange solid;
+	height: 100%;
+}
+.item {
+	width: 350px;
+	margin: 5px;
+	float: left;
+}
+.item, logo {
+	width: 250px;
+}
+.quoteA {
+	color: #4A3D2A;
+	text-align: left;
+}
+.quoteB {
+	color: maroon;
+	text-align: left;
+}
+.quoteC {
+	color: sienna;
+	text-align: left;
+}
+.quoteD {
+	color: peru;
+	text-align: Left;
+}
+.quote {
+	font-family: CodaHeavy;
+	font-weight: bolder;
+	font-size: 40px;
+	line-height: .80;
+	z-index: 10;
+	text-shadow: 4px 4px 4px black;
+	padding-top: 5px;
+	text-outline: 2px 2px black;
+}
+/**** Transitions ****/
+.masonry, .masonry .masonry-brick {
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+.masonry {
+	-webkit-transition-property: width, height;
+	-moz-transition-property: width, height;
+	-ms-transition-property: width, height;
+	-o-transition-property: width, height;
+	transition-property: width, height;
+}
+.masonry .masonry-brick {
+	-webkit-transition-property: left, right, top;
+	-moz-transition-property: left, right, top;
+	-ms-transition-property: left, right, top;
+	-o-transition-property: left, right, top;
+	transition-property: left, right, top;
+}
+a .masonry-image {
+	width: 240px;
+	border: 5px solid blanchedalmond;
+}
+a:hover .masonry-image {
+	border-color: orange;
+}
+.site-name {
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+	font-size: 45px;
+	text-align: center;
+	position:relative;
+	top: -25px;
+	left: -15px;
+}
+.textblock {
+	border-top: solid thick sienna;
+	border-bottom: solid thick sienna;
+}
+
+/*** Blog Reader ***/
+/* begin styles for RSS Feed 
+     This is the most basic style to use for a list with no bullets */
+
+.rss-box {
+	 width: 250px;
+	 background-color: #221100;
+         padding: 10px;
+}
+
+.rss-title, rss_title a {
+	margin: 0px 0;
+	padding: 0;
+        color: blanchedalmond;
+}
+
+.rss-items {
+       list-style:none;
+       padding-left: 1px;
+       color: blanchedalmond;
+}
+
+.rss-item  {
+  font-size: small;
+  margin-bottom: 10px;
+  color: blanchedalmond;
+}
+
+.rss-item a:link, .rss-item a:visited, .rss-item a:active {
+  color: peru;
+
+	}
+a { text-decoration: none; }
+
+.rss-item a:hover { 
+  color: orange;
+	}
+	
+.rss-date {
+	font-size: x-small;
+	} 
+/* buttons modeled from http://www.wellstyled.com/css-inline-buttons.html */
+
+.pod-play {
+   _width:12em;
+   margin: 0 0.2em; padding: 0.1em 0; _padding:0;
+   
+   white-space:nowrap;
+   text-decoration: none;
+   vertical-align:middle;
+   background: #fb6;
+   color: black;
+   }
+.pod-play em {
+   _width:1em; _cursor:hand;
+   font-style: normal;
+   margin:0; padding: 0.1em 0.5em;
+   background: white;
+   color: #222;
+   }
+.pod-play span {
+   _width:1em; _cursor:hand;
+   margin:0; padding: 0.1em 0.5em 0.1em 0.3em;
+   }
+.pod-play:hover {
+   background: #666;
+   color: white;
+   }
+.pod-play:hover em {
+   background: black;
+   color: white
+   }
+
+</style>
+<script>
+		window.onload = function() {
+			var wall = new Masonry( document.getElementById('container'), {
+				columnWidth: 100
+			});
+		};
+	</script>
+</head>
+
+<body>
+
+<div id="container">
+	<div class="item masonry">
+		<img alt="Splinterworks Logo" src="images/logo.png" width="200px" />
+		<h1 class="site-name">Splinterworks Guitars<br />
+		USA</h1>
+	</div>
+	
+	<div class="item masonry-brick" >
+		<script src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.estevenjones.com%2Fsplinterworks_blog%2Ffeed&num=2&au=n&utf=y&html=a"  charset="UTF-8" type="text/javascript"></script>
+
+		<noscript>
+		<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.estevenjones.com%2Fsplinterworks_blog%2Ffeed&num=1&au=y&utf=y&html=y">View RSS feed</a>
+		</noscript>
+
+	</div>
+	
+
+	
+	<div class="item masonry-brick">
+		<a class="masonry-image" href="gallery.html">
+		<img alt="Check out the Gallery" class="masonry-image" src="images/full_composite_gtr.png" /></a>
+	</div>
+	<div class="quote quoteC item masonry-brick">
+		<span>Looking at it, you should want to pick it up.</span></div>
+	
+	<div class="quote quoteB item masonry-brick">
+		<span>Making music with it should come as naturally as picking it up.</span></div>
+	
+	<div class="quote quoteA item masonry-brick"><span>Visually, it should invite touch.</span></div>
+	<div class="quote quoteD item masonry-brick">
+		<span>Its touch should invite playing.</span></div>
+</div>
+<div style="width: 25%">
+&nbsp;</div>
+
+</body>
+
+</html>

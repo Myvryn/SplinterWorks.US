@@ -1,0 +1,211 @@
+<head>
+<title>Task Adder</title>
+<meta name="Name" content="Task Adder - modified by NickM" />
+<meta name="Version" content="2012.05.05" />
+<meta name="Vendor" content="estevenjones.com" />
+<style>
+.label {
+text-align: left;
+font-family: trebuchet, tahoma, arial, sans-serif;
+font-weight: bold
+width: 50%;
+line-height: 18px;
+}
+.input {
+font-size: 8pt;
+font-weight: normal;
+text-align: right;
+width: 50%
+}
+.odd {
+background-color: blue;
+}
+.table {
+width: 100%;
+}
+.rounded {
+height: 75%;
+border-width: 3px;
+border-spacing: 0px;
+border-style: solid;
+border-color: grey;
+background-color: white;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+box-shadow:5px 5px 10px lightgrey;
+veritical-align: middle;
+text-align: center;
+padding: 15px;
+
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-bottomright: 15px;
+}
+td { padding: 5px; }
+</style>
+<script type="text/javascript" src="https://rally1.rallydev.com/apps/1.24/sdk.js?debug=true"></script>
+<script type="text/javascript">
+
+var iterationDropdown;
+var taskTitle;
+var taskEstimate;
+var button;
+var objectDropdown;
+var rallyDataSource;
+var hr;
+
+function textBoxChanged(tb, args) {
+var value = args.value;
+}
+
+function dropdownChanged(dropdown, eventArgs) {
+var selectedItem = eventArgs.item;
+var selectedValue = eventArgs.value;
+}
+
+function iterationSelected(dropdown, eventArgs) {
+var selectedItem = eventArgs.item;
+var selectedValue = eventArgs.value;
+seedStories();
+}
+
+function onCreateComplete(response){
+alert("I think it worked.");
+var sURL = unescape(window.location.pathname);
+//window.location.href = sURL;
+}
+
+function onError(response){
+// An array of errors returned from Rally.
+var errors = response.Errors;
+// An array of warnings returned from Rally.
+var warnings = response.Warnings;
+
+console.log(errors);
+console.log(warnings);
+alert("Sorry, failed to create your task.");
+}
+
+
+function onHRGetSuccess(obj){
+
+
+
+
+for( var x in obj.Parent ){
+console.log( x + ":\t" + obj.Parent[x] );
+}
+
+
+var estimate = parseFloat(taskEstimate.getValue());
+
+
+var submitObject = {
+"Name" : taskTitle.getValue(),
+"Estimate" : estimate,
+"ToDo" : estimate,
+"WorkProduct" : obj,
+"State" : "Defined"
+};
+
+console.log("work product: " + submitObject.WorkProduct.Name);
+
+rallyDataSource.create("task" , submitObject , onCreateComplete, onError);
+}
+
+function showResults(results){
+alert("Returned " + results.defects.length + " defects");
+alert("Returned " + results.stories.length + " stories");
+}
+
+
+
+function onClick(b, args) {
+var buttonValue = args.value;
+var selectedStory = objectDropdown.getValue();
+
+console.log("Attempting to get object with value: " + selectedStory);
+rallyDataSource.getRallyObject(selectedStory, onHRGetSuccess, onError);
+
+}
+
+function seedStories(){
+var queryToRun = '(( ScheduleState < "Completed" ) AND ( Iteration.Name = "' + iterationDropdown.getSelectedName() + '" ))';
+var userStoriesConfig = {
+label : "Select a Story",
+type : "HierarchicalRequirement",
+attribute: "Name",
+query : queryToRun,
+showLabel: false
+};
+
+try { objectDropdown.destroy(); } catch(err) {}
+objectDropdown = new rally.sdk.ui.ObjectDropdown(userStoriesConfig, rallyDataSource);
+objectDropdown.display("userStories", dropdownChanged);
+
+
+}
+
+
+
+function onLoad() {
+rallyDataSource = new rally.sdk.data.RallyDataSource('__WORKSPACE_OID__',
+                                                             '__PROJECT_OID__',
+                                                             '__PROJECT_SCOPING_UP__',
+                                                             '__PROJECT_SCOPING_DOWN__');
+
+console.log("\n");
+
+// Set Iteration Selector
+var iterationSelectorConfig = {
+label : "Select an iteration ",
+showLabel : false
+};
+iterationDropdown = new rally.sdk.ui.IterationDropdown(iterationSelectorConfig, rallyDataSource);
+iterationDropdown.display("aDiv", iterationSelected);
+
+
+// Set Task Title
+var taskTitleConfig = {
+label : "Task Name: ",
+value : "New Task",
+showLabel: false
+};
+
+taskTitle = new rally.sdk.ui.basic.TextBox(taskTitleConfig);
+taskTitle.display("taskTitle", textBoxChanged);
+
+// Set Task Estimate
+var taskEstimateConfig = {
+label : "Task Estimate: ",
+value : "Hours",
+showLabel: false
+};
+taskEstimate = new rally.sdk.ui.basic.TextBox(taskEstimateConfig);
+taskEstimate.display("taskEstimate", textBoxChanged);
+
+// Set Button
+var buttonConfig = {
+text: "+ Add Task",
+value: "myValue"
+};
+button = new rally.sdk.ui.basic.Button(buttonConfig);
+button.display("buttonDiv", onClick);
+}
+
+
+rally.addOnLoad(onLoad);
+</script>
+</head>
+<body>
+<div style="text-align: center" class="rounded">
+<table class="table">
+<tr><td class="label">Select an Iteration:</td><td id="aDiv" class="input"></td></tr>
+<tr><td class="label">Select a user Story:</td><td id="userStories" class="input"></td></tr>
+<tr><td class="label">Task Title/Desc:</td><td id="taskTitle" class="input"></td></tr>
+<tr><td class="label">Estimate (in hours):</td><td id="taskEstimate" class="input"></td></tr>
+<tr><td></td><td id="buttonDiv" class="input"></td></tr>
+</table>
+</div>
+
+</body>
+</html>

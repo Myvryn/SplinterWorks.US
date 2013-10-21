@@ -1,0 +1,182 @@
+﻿BODY{
+    background-color:   #221100;
+    background-repeat:  no-repeat;
+    background-position:    top center;
+	font-family: 'Trebuchet MS', Arial, Tahoma, sans-serif;
+	color: #C2C1A6;
+    margin: 10px;
+
+}
+
+.LogoBlock{
+	position: absolute;
+	top: 50px;
+	right: 90px;
+	opacity: 0.35;
+	-moz-opacity: 0.35;
+	filter:alpha(opacity=3.5);
+    z-index: 0;
+
+}
+.MenuBlock{
+    text-align: right;
+    text-decoration: none;
+    float: right;
+    height: 160px;
+    position: relative;
+    z-index: 15;
+}
+.SubPage{
+	text-align: left;
+	float: left;
+	height: 120px;
+}
+.MenuItem{
+    width:  50px;
+    color:  #C2C1A6;
+}
+.MenuItem:visited{ color: #C2C1A6; }
+.MenuItem:Hover{
+    color:  #C14B0D;
+	text-decoration: none;
+}
+
+A{
+	text-decoration: none;
+}
+h1{
+	font-weight: bolder;
+	font-size: 45px;	
+}
+img{
+    -webkit-border-radius: 15px 0px 15px 0px;
+	-moz-border-radius: 15px 0px 15px 0px;
+    border-radius: 15px 0px 15px 0px; 
+}
+.bordered{
+	border: solid 2px #C2C1A6;
+	padding: 10px;
+	padding-right: 25px;
+	padding-bottom: 0px;
+	-webkit-border-radius: 15px 0px 15px 0px;
+	-moz-border-radius: 15px 0px 15px 0px;
+	border-radius: 15px 0px 15px 0px;	
+}
+.subtitle{
+	float: left;
+	position: relative;
+	top: -30px; 
+    left: 34px;
+	border-top: solid thin;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: right;
+	font-size:  25px;
+	z-index: 10;
+}
+.footer{
+	text-align:  center;
+	font-size: smaller;
+	position: absolute;
+	bottom:  15px;
+	width: 95%;
+	color: darkslate;	
+}
+.TitleBlock{
+    float: right;
+    z-index: 1;
+}
+.TitleBlock h1{
+	margin-top: 0em;
+}
+.BodyImage{
+    float: right;
+}
+.ie6 .ie7 .ie8 .quote{
+	opacity: 1;
+	-moz-opacity: 1;
+	filter:alpha(opacity=10);
+}
+.quote{
+	font-family: CodaHeavy;
+	font-weight: bolder;
+	font-size: 40px;
+	line-height: .70;
+	position: relative;
+	z-index: 10;
+	padding-bottom: 15px;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	text-shadow: 4px 4px 4px #221100;
+}
+.quote:Hover span{
+	color: #C2C1A6;
+	-moz-transition-duration: .75s;
+	-moz-transition-property: color;
+	-moz-transition-timing-function: ease-out;
+ 	-webkit-transition-duration: .75s;
+ 	-webkit-transition-property: color;
+ 	-webkit-transition-timing-function: ease-out;
+ 	transition-duration: .75s;
+ 	transition-property: color;
+ 	transition-timing-function: ease-out; 
+}
+.quote span{
+	-moz-transition-duration: 1s;
+ 	-moz-transition-property: color;
+ 	-moz-transition-timing-function: ease-out;
+ 	-webkit-transition-duration: 1s;
+ 	-webkit-transition-property: color;
+ 	-webkit-transition-timing-function: ease-out;
+ 	transition-duration: 1s;
+ 	transition-property: color;
+ 	transition-timing-function: ease-out;
+}
+.quoteA{
+	position: relative;
+	top: 0px;
+	color: #4A3D2A;
+}
+.quoteB{
+	position: relative;
+	font-size: 50px;
+	color: #4F4236;
+}
+.quoteC{
+	color: #4F4236;
+	font-size: 60px;
+	margin-top: 25px;
+	text-align: center;
+}
+.quoteD{
+	text-align: center;
+	font-size: 35px;
+}
+.quoteD:Hover span{
+	color:	#4A3D2A;
+}
+.firstQuote{
+	top: 0px;
+	padding-bottom:26px;
+}
+.embedded{
+	height:  4500px;
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+	filter:alpha(opacity=7);
+}
+/* ------------------ Fonts  -------------------------- */
+@font-face {
+    font-family: 'CodaHeavy';
+    src: url('Fonts/coda-fontfacekit/Coda-Heavy-webfont.eot');
+    src: url('Fonts/coda-fontfacekit/Coda-Heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/coda-fontfacekit/Coda-Heavy-webfont.woff') format('woff'),
+         url('Fonts/coda-fontfacekit/Coda-Heavy-webfont.ttf') format('truetype'),
+         url('Fonts/coda-fontfacekit/Coda-Heavy-webfont.svg#CodaHeavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
