@@ -73,15 +73,22 @@ a:hover .masonry-image {
     border-color: orange;
 }
 
+.masonry-menu{
+    text-align: center;
+    width: 210px;
+    font-family: codaheavy;
+    color: blanchedalmond;
+    line-height: 1.3;
+}
 
 .handwriting{
     font-family: Stalemate;
     position:relative;
 }
 .usa{
-    top: -70px;
-    left: 190px;
-    font-size: 30px;
+    top: -65px;
+    left: 120px;
+    font-size: 40px;
 }
 .site-name {
     -webkit-transform: rotate(-50deg);

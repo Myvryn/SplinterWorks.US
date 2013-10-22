@@ -38,9 +38,9 @@
 	height: 120px;
 }
 .MenuItem{
-    color:  #C2C1A6;
+    color:  blanchedalmond;
 }
-.MenuItem:visited{ color: #C2C1A6; }
+.MenuItem:visited{ color: blanchedalmond; }
 .MenuItem:Hover{
     color:  #C14B0D;
 	text-decoration: none;
@@ -63,9 +63,9 @@ img{
 	padding: 10px;
 	padding-right: 25px;
 	padding-bottom: 5px;
-	-webkit-border-radius: 15px 0px 15px 0px;
-	-moz-border-radius: 15px 0px 15px 0px;
-	border-radius: 15px 0px 15px 0px;	
+	-webkit-border-radius: 0px 15px px 15px;
+	-moz-border-radius: 15px 15px 0px 15px;
+	border-radius: 0px 15px 0px 15px;
 
 }
 .subtitle{
@@ -196,6 +196,5 @@ img{
     font-weight: normal;
     font-style: normal;
 }
-@font-family: 'Pacifico', cursive;
-@font-family: 'Sacramento', cursive;
+
 @font-family: 'Stalemate', cursive;

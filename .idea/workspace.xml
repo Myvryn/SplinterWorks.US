@@ -12,11 +12,11 @@
     </list>
     <ignored path="splinterworks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382454971356" ignored="false" />
+    <file path="/Dummy.txt" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382473208058" ignored="false" />
     <file path="/splinterworks.css" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382375404929" ignored="false" />
-    <file path="/index3.html" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382454516628" ignored="false" />
-    <file path="/splinterworks_masonry.css" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382454730899" ignored="false" />
-    <file path="/splinterworks2.css" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382454994402" ignored="false" />
+    <file path="/index3.html" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382475859086" ignored="false" />
+    <file path="/splinterworks_masonry.css" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382475980004" ignored="false" />
+    <file path="/splinterworks2.css" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382474232366" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <file leaf-file-name="index3.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="10" selection-start="1297" selection-end="1297" vertical-scroll-proportion="-17.961538">
+            <state line="37" column="82" selection-start="1377" selection-end="1377" vertical-scroll-proportion="-16.26923">
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -106,19 +106,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="splinterworks2.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="splinterworks2.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splinterworks2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="20" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.38030097">
+            <state line="49" column="84" selection-start="844" selection-end="844" vertical-scroll-proportion="-21.48">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="splinterworks_masonry.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="splinterworks_masonry.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/splinterworks_masonry.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="12" selection-start="1692" selection-end="1692" vertical-scroll-proportion="-12.6">
+            <state line="85" column="49" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.61513156">
               <folding />
             </state>
           </provider>
@@ -135,6 +135,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -144,9 +145,9 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/splinterworks.css" />
+        <option value="$PROJECT_DIR$/splinterworks2.css" />
         <option value="$PROJECT_DIR$/index3.html" />
         <option value="$PROJECT_DIR$/splinterworks_masonry.css" />
-        <option value="$PROJECT_DIR$/splinterworks2.css" />
       </list>
     </option>
   </component>
@@ -335,21 +336,25 @@
       <created>1382397551920</created>
       <updated>1382397551920</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Stylized the font for &quot;Splinterworks Guitars USA&quot; in the header.&#10;Resized the logo">
+      <created>1382455012013</created>
+      <updated>1382455012013</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15795328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2669633" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15795328" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14662448" sideWeight="0.23717949" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -360,7 +365,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17609392" sideWeight="0.84204674" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17609392" sideWeight="0.7330367" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2041689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -529,25 +534,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splinterworks_masonry.css">
+    <entry file="file://$PROJECT_DIR$/splinterworks2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="12" selection-start="1692" selection-end="1692" vertical-scroll-proportion="-12.6">
+        <state line="49" column="84" selection-start="844" selection-end="844" vertical-scroll-proportion="-21.48">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="10" selection-start="1297" selection-end="1297" vertical-scroll-proportion="-17.961538">
+        <state line="37" column="82" selection-start="1377" selection-end="1377" vertical-scroll-proportion="-16.26923">
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splinterworks2.css">
+    <entry file="file://$PROJECT_DIR$/splinterworks_masonry.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="20" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.38030097">
+        <state line="85" column="49" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.61513156">
           <folding />
         </state>
       </provider>
