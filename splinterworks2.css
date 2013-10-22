@@ -85,7 +85,7 @@ img{
 	position: absolute;
 	bottom:  15px;
 	width: 95%;
-	color: darkslate;	
+	color: darkslategray;
 }
 .TitleBlock{
 	float:right;
@@ -170,7 +170,7 @@ img{
 }
 .quoteD{
 	color:peru;
-	text-align: Left;
+	text-align: left;
 	position:relative;
 	top:-40px;
 	font-size:60px;
@@ -195,5 +195,7 @@ img{
          url('Fonts/coda-fontfacekit/Coda-Heavy-webfont.svg#CodaHeavy') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+@font-family: 'Pacifico', cursive;
+@font-family: 'Sacramento', cursive;
+@font-family: 'Stalemate', cursive;

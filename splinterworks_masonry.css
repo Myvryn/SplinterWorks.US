@@ -72,16 +72,28 @@ a .masonry-image {
 a:hover .masonry-image {
     border-color: orange;
 }
-.site-name {
-    -webkit-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-    font-size: 45px;
-    text-align: center;
+
+
+.handwriting{
+    font-family: Stalemate;
     position:relative;
-    top: -25px;
-    left: -15px;
 }
+.usa{
+    top: -70px;
+    left: 190px;
+    font-size: 30px;
+}
+.site-name {
+    -webkit-transform: rotate(-50deg);
+    -moz-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    font-size: 70px;
+    text-align: right;
+    top: -30px;
+    left: 13px;
+    line-height: .9;
+}
+
 .textblock {
     border-top: solid thick sienna;
     border-bottom: solid thick sienna;
