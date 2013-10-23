@@ -1,86 +1,72 @@
-<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html>
 <html>
-    <head>
-    <title>Splinterworks Guitars</title>
-    <!-- The Columnal Grid (base, load first) -->
-	<link rel="stylesheet" href="css/columnal.css" type="text/css" media="screen" />
-    <!-- Fixes for IE -->
-        <!--[if lt IE 9]>
-            <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
-        <![endif]-->
 
-        <!-- use "fixed-984px-ie.css" or "fixed-960px-ie.css for a 984px or 960px fixed width for IE6 and 7 -->
-        <!--[if lte IE 7]>
-            <link rel="stylesheet" href="css/fixed-984px-ie.css" type="text/css" media="screen" />
-        <![endif]-->
-        
-    <!-- Fixes for IE6, only needed if IE 6 will be supported - width must match 984px or 960px of css file used above -->
-    <!-- Use .imagescale to fix IE6 issues with full-column width images (class must be added to any image wider than the column it is placed into) -->
-        <!--[if lte IE 6]>
-            <link rel="stylesheet" href="css/ie6-984px.css" type="text/css" media="screen" />
-        <![endif]-->
-      <!-- End fixes for IE -->
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <script src="vanilla-masonry.js"></script>
+    <link href="splinterworks2.css" rel="StyleSheet" type="text/css" />
+    <title>Splinterworks Guitars - USA</title>
+    <link href="splinterworks_masonry.css" rel="stylesheet" type="text/css"/>
+    <link href='http://fonts.googleapis.com/css?family=Stalemate|Pacifico|Meddon' rel='stylesheet' type='text/css'>
+<script>
+		window.onload = function() {
+			var wall = new Masonry( document.getElementById('container'), {
+				columnWidth: 100
+			});
+		};
+	</script>
+</head>
 
-    <!-- Page building tools - Gray box colors and page debugging tools -->
+<body>
 
-    <!-- http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-    <!--[if lt IE 7]><html lang="en" class="ie ie6 lt7 lt8 lt9" ><![endif]-->
-    <!--[if IE 7]>   <html lang="en" class="ie ie7 lt8 lt9" ><![endif]-->
-    <!--[if IE 8]>   <html lang="en" class="ie ie8 lt9" ><![endif]-->
-    <!--[if IE 9]>   <html lang="en" class="ie ie9" ><![endif]-->
-    <!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<div id="container">
+	<div class="item masonry">
+		<img alt="Splinterworks Logo" src="images/logo.png" width="150px" />
+		<div class="site-name handwriting">Splinterworks Guitars<br /></div>
+		<div class="handwriting usa">... for the Senses</div>
+	</div>
+	
+	<div class="item masonry-brick" >
+		<script src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.estevenjones.com%2Fsplinterworks_blog%2Ffeed&num=2&au=n&utf=y&html=a"  charset="UTF-8" type="text/javascript"></script>
 
-    <link rel="stylesheet" href="css/build.css" type="text/css" media="screen" />
-    <link rel=StyleSheet href="splinterworks.css" type="text/css"/>
-    <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-30655952-1']);
-          _gaq.push(['_trackPageview']);
+		<noscript>
+		<a href="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fwww.estevenjones.com%2Fsplinterworks_blog%2Ffeed&num=1&au=y&utf=y&html=y">View RSS feed</a>
+		</noscript>
 
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-    </script>
-    </head>
-    <body>
-    <div class="container" style="z-index: 10" >
-        <div class="row">
-            <div class="quote col_5">
-                <div class="quoteB firstQuote">A <span>musical instrument</span> should appeal to multiple senses.</div>                
-            </div>
-            
-            <span class="MenuBlock col_5 pre_3 bordered">
-                <a href="/" class="MenuItem"> HOME&nbsp;</a>|&nbsp;
-                <a href="contact_me.html" class="MenuItem">&nbsp;CONTACT&nbsp;</a>|&nbsp;
-                <a href="about_me.html" class="MenuItem">&nbsp;ABOUT ME&nbsp;</a>|&nbsp;
-                <a href="blog.html" class="MenuItem">&nbsp;BLOG&nbsp;</a>|&nbsp;
-                <a href="gallery.html" class="MenuItem">&nbsp;GALLERY&nbsp;</a>
-                <span class="TitleBlock">
-                    <h1>Splinterworks</h1>
-                    <span class="subtitle">&nbsp;Guitars&nbsp;for&nbsp;the&nbsp;Senses</span>
-                </span>
-            </span>
-            
+	</div>
+	<div class="item masonry-brick">
+        <div class="bordered masonry-menu">
+            <a class="MenuItem" href="./index.html">Home</a> ·
+            <a class="MenuItem" href="./gallery.html">Gallery</a> ·
+            <a class="MenuItem" href="./blog.html">Blog</a> ·&nbsp;
+            <a class="MenuItem" href="./contact_me.html">Contact&nbsp;Me</a> ·
+            <a class="MenuItem" href="./about_me.html">About&nbsp;Me</a>
         </div>
-        <div class="row"><div class="quote quoteD"><span>Visually, it should </span>invite touch.</div></div>
-        <div class="row">
+        <hr/>
+        <a class="masonry-image" href="gallery.html">
+		    <img alt="Check out the Gallery" class="masonry-image" src="images/full_composite_gtr.png" />
+        </a>
+	</div>
 
-            <div class="col_4 quote quoteB">Looking at it, you should want to <span>pick it up.</span></div>
-            <div class="col_2 quote quoteA">Its touch should <span>invite playing</span>.<br/></div>
-            <div class="col_4 pre_1 quote quoteB"><span>Making music </span>with it should come as naturally as picking it up.</div>
-        </div>
-        <div class="row">
-                <div class="col_12 margin_top_15 quote quoteD"><span>Its sound should </span>compel you to play <span>- to listen.</span> </div>
-                <div class="col_12 margin_top_15 quote quoteB quoteC"><span>I love to handcraft every part </span>of that appeal. </div>
-            </div>
-        </div>
+    <div id="menu" class="item masonry-brick">
+        <span class="quote">
+
+        </span>
     </div>
 
-    </body>
- 
-            <div id="image" class="LogoBlock">
-                <img alt="logoSplinterWorks" src="images/logo.png">
-            </div>
+	<div class="quote quoteC item masonry-brick">
+		<span>Looking at it, you should want to pick it up.</span></div>
+	
+	<div class="quote quoteB item masonry-brick">
+		<span>Making music with it should come as naturally as picking it up.</span></div>
+	
+	<div class="quote quoteA item masonry-brick"><span>Visually, it should invite touch.</span></div>
+	<div class="quote quoteD item masonry-brick">
+		<span>Its touch should invite playing.</span></div>
+</div>
+<div style="width: 25%">
+&nbsp;</div>
+
+</body>
+
 </html>
