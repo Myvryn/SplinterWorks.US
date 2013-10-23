@@ -4,17 +4,18 @@
     <option name="ANALYSIS_IN_BACKGROUND" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\jonesedwin\IdeaProjects\SplinterWorks.US\index3.html" afterPath="$PROJECT_DIR$/index.html" />
+    <list default="true" id="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" name="Default" comment="Moved the graphics and menu to bein">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="splinterworks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382476115754" ignored="false" />
+    <file path="/Dummy.txt" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382539989911" ignored="false" />
     <file path="/splinterworks.css" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382375404929" ignored="false" />
     <file path="/index3.html" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382475859086" ignored="false" />
-    <file path="/splinterworks_masonry.css" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382475980004" ignored="false" />
+    <file path="/splinterworks_masonry.css" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382540048973" ignored="false" />
     <file path="/splinterworks2.css" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382474232366" ignored="false" />
+    <file path="/index.html" changelist="f60d93f3-8a38-40b9-8c52-f7a2b0e4a5d0" time="1382540111902" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="43" selection-start="1377" selection-end="1377" vertical-scroll-proportion="-16.26923">
+            <state line="28" column="8" selection-start="931" selection-end="1332" vertical-scroll-proportion="0.53212523">
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -104,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="splinterworks_masonry.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="splinterworks_masonry.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splinterworks_masonry.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="13" selection-start="1740" selection-end="1740" vertical-scroll-proportion="0.55921054">
+            <state line="73" column="38" selection-start="1586" selection-end="1588" vertical-scroll-proportion="-10.88">
               <folding />
             </state>
           </provider>
@@ -132,11 +133,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/splinterworks.css" />
         <option value="$PROJECT_DIR$/splinterworks2.css" />
         <option value="$PROJECT_DIR$/index3.html" />
         <option value="$PROJECT_DIR$/splinterworks_masonry.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -333,7 +334,11 @@
       <created>1382476120676</created>
       <updated>1382476120676</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="removed the old index.html&#10;Promoted index3.html to index.html">
+      <created>1382539784357</created>
+      <updated>1382539784357</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -415,7 +420,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the Menu.&#10;Modified the logo block a bit" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed the old index.html&#10;Promoted index3.html to index.html" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -433,6 +438,7 @@
     <MESSAGE value="Moved the Masonry Styles to it's own file&#10;Modified index3.html to reflect this." />
     <MESSAGE value="Stylized the font for &quot;Splinterworks Guitars USA&quot; in the header.&#10;Resized the logo" />
     <MESSAGE value="Added the Menu.&#10;Modified the logo block a bit" />
+    <MESSAGE value="removed the old index.html&#10;Promoted index3.html to index.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -507,19 +513,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/splinterworks_masonry.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="43" selection-start="1377" selection-end="1377" vertical-scroll-proportion="-16.26923">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="73" column="38" selection-start="1586" selection-end="1588" vertical-scroll-proportion="-10.88">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splinterworks_masonry.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="13" selection-start="1740" selection-end="1740" vertical-scroll-proportion="0.55921054">
-          <folding />
+        <state line="28" column="8" selection-start="931" selection-end="1332" vertical-scroll-proportion="0.53212523">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
